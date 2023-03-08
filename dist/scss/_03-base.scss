@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+
+body {
+font-family: $ff-primary;
+font-size: 1.6rem;
+line-height: 2;
+color: $clr-light;
+}
+
+
+a {
+  color: $clr-dark;
+  text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: $clr-dark;
+}
