@@ -249,6 +249,340 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 20rem;
 }
 
+.banner {
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 3rem;
+}
+.banner .container {
+  padding: 0 0;
+}
+.banner__discover {
+  background-position: 90%;
+  background-image: url(../img/bannerimg.jpeg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+}
+.banner__content {
+  display: block;
+  padding: 3rem 3rem;
+  flex: 0 0 auto;
+  width: 100%;
+}
+.banner__content h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #1E3932;
+}
+.banner__content a {
+  margin-top: 3rem;
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #2b2b2b;
+  display: inline-block;
+  font-weight: bold;
+  color: #1E3932;
+}
+.banner__content a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.banner__gifting {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img {
+  min-height: 240px;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.banner__img__content-gifting {
+  background-image: url(../img/Starbucks_eGift_-_Homepage.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text {
+  background: #006241;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text p {
+  padding: 0 3rem;
+  margin-bottom: 3rem;
+}
+.banner__text a {
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.banner__text a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.banner__rich-nutty-comfort {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img__content-comfort {
+  background-image: url(../img/bannerimg__small__richnutty.jpeg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text-comfort {
+  background: #1E3932;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text-comfort h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text-comfort p {
+  margin-bottom: 3rem;
+}
+.banner__text-comfort a {
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  font-weight: 800;
+  color: #ffffff;
+}
+.banner__text-comfort a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.banner__spring-time {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img__content-spring {
+  background-image: url(../img/bannerimg__small__springtimetreats.jpeg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text-spring {
+  background: #1E3932;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text-spring h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text-spring p {
+  margin-bottom: 3rem;
+}
+.banner__text-spring a {
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.banner__text-spring a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.banner__reusables {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img__content-reusables {
+  background-image: url(../img/bannerimg__small__pinktumbler.jpeg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text-reusables {
+  background: #D4E9E2;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text-reusables h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text-reusables p {
+  margin-bottom: 3rem;
+  color: #000000;
+}
+.banner__text-reusables a {
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #000000;
+  display: inline-block;
+  font-weight: bolder;
+  color: #000000;
+}
+.banner__no-time {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img__content__no-time {
+  background-image: url(../img/Starbucks_Delivers_-_Homepage.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text__no-time {
+  background: #D4E9E2;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text__no-time h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text__no-time p {
+  margin-bottom: 3rem;
+  color: #000000;
+}
+.banner__text__no-time a {
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #000000;
+  display: inline-block;
+  font-weight: bolder;
+  color: #2b2b2b;
+}
+.banner__sweet {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img__content__sweet {
+  background-image: url(../img/bannerimg__small__sweetasulike.jpeg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text__sweet {
+  background: #D4E9E2;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text__sweet h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text__sweet p {
+  margin-bottom: 3rem;
+  color: #000000;
+}
+.banner__stories {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.banner__img__content__stories {
+  background-image: url(../img/bannerimg__small__sbstories.jpeg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__text__stories {
+  background: #FAF6EE;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.banner__text__stories h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.banner__text__stories p {
+  margin-bottom: 3rem;
+  color: #000000;
+}
+.banner__text__stories a {
+  padding: 0.1rem 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid #000000;
+  display: inline-block;
+  font-weight: bolder;
+  color: #2b2b2b;
+}
+
 .links {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -319,6 +653,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
   .links ul {
+    flex-shrink: 0;
     margin-top: 2rem;
     margin-left: 0;
     max-height: unset;

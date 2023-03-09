@@ -1,0 +1,400 @@
+.banner{
+
+    .container{
+        padding: 0 0;
+    }
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 3rem;
+    
+    // Discover Section
+    &__discover{
+        background-position: 90%;
+        background-image: url(../img/bannerimg.jpeg);
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 3rem;
+    }
+
+    &__content{
+        display: block;
+        
+        padding: 3rem 3rem;
+        flex: 0 0 auto  ;
+        width: 100%;
+
+        h2{
+            font-size: 4rem;
+            font-weight: bold;
+            color: $clr-fontgreen;
+        }
+
+        a{
+            margin-top: 3rem;
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-dark;
+            display: inline-block;
+            font-weight: bold;
+            color: $clr-fontgreen;
+
+            &:hover{
+                background: rgb(255, 255, 255, .1);
+                
+            }
+
+        }
+    }
+
+    // Gifting section
+
+    &__gifting{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    
+    &__img{
+        min-height: 240px;
+        height: fit-content;
+        position: relative;
+        padding-top: 4rem;
+        padding-bottom: 4rem; 
+    }
+
+    &__img__content-gifting{
+        background-image: url(../img/Starbucks_eGift_-_Homepage.jpg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text{
+        background: $clr-darkgreen;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-light;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+            padding: 0 3rem;
+            margin-bottom: 3rem;
+        }
+
+        a{
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-light;
+            display: inline-block;
+            font-weight: bolder;
+            color: $clr-light;
+            &:hover{
+                background: rgb(255, 255, 255, .1);
+                
+            }
+        }
+    }
+
+    // Rich Nutty Section
+
+    &__rich-nutty-comfort{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    &__img__content-comfort{
+        background-image: url(../img/bannerimg__small__richnutty.jpeg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text-comfort{
+        background: $clr-fontgreen;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-light;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+            
+            margin-bottom: 3rem;
+        }
+
+        a{
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-light;
+            display: inline-block;
+            font-weight: 800;
+            color: $clr-light;
+            &:hover{
+                background: rgb(255, 255, 255, .1);
+                
+            }
+        }
+    }
+
+    // Spring time section
+    &__spring-time{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    &__img__content-spring{
+        background-image: url(../img/bannerimg__small__springtimetreats.jpeg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text-spring{
+        background: $clr-fontgreen;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-light;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+            
+            margin-bottom: 3rem;
+        }
+
+        a{
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-light;
+            display: inline-block;
+            font-weight: bolder;
+            color: $clr-light;
+            &:hover{
+                background: rgb(255, 255, 255, .1);
+                
+            }
+        }
+    }
+
+    // Reusables Section
+    &__reusables{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    &__img__content-reusables{
+        background-image: url(../img/bannerimg__small__pinktumbler.jpeg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text-reusables{
+        background: #D4E9E2;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-black;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+           
+            margin-bottom: 3rem;
+            color: $clr-black;
+        }
+
+        a{
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-black;
+            display: inline-block;
+            font-weight: bolder;
+            color: $clr-black;
+            
+        }
+    }
+
+    // NO time section
+
+    &__no-time{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    &__img__content__no-time{
+        background-image: url(../img/Starbucks_Delivers_-_Homepage.jpg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text__no-time{
+        background: #D4E9E2;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-black;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+           
+            margin-bottom: 3rem;
+            color: $clr-black;
+        }
+
+        a{
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-black;
+            display: inline-block;
+            font-weight: bolder;
+            color: $clr-dark;
+            
+        }
+    }
+
+    // Sweet section
+    &__sweet{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    &__img__content__sweet{
+        background-image: url(../img/bannerimg__small__sweetasulike.jpeg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text__sweet{
+        background: #D4E9E2;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-black;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+           
+            margin-bottom: 3rem;
+            color: $clr-black;
+        }
+
+    }
+
+    // Stories Section
+    &__stories{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    &__img__content__stories{
+        background-image: url(../img/bannerimg__small__sbstories.jpeg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__text__stories{
+        background: #FAF6EE;
+        padding: 4rem 3rem;
+        text-align: center;
+        h3{
+            color:$clr-black;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 3rem;
+        }
+        p{
+           
+            margin-bottom: 3rem;
+            color: $clr-black;
+        }
+
+        a{
+            padding: .1rem 1.8rem;
+            border-radius: 3rem;
+            border: 1px solid $clr-black;
+            display: inline-block;
+            font-weight: bolder;
+            color: $clr-dark;
+            
+        }
+
+    }
+
+// @include mediaQuery($break-lg){
+//     &__discover{}
+// }
+    
+    
+}
