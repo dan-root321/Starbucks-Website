@@ -1,12 +1,12 @@
 .banner{
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 3rem;
 
     .container{
         padding: 0 0;
     }
-    position: relative;
-    margin-top: 70px;
-    margin-bottom: 3rem;
-    
+
     // Discover Section
     &__discover{
         background-position: 90%;
@@ -299,7 +299,7 @@
             border: 1px solid $clr-black;
             display: inline-block;
             font-weight: bolder;
-            color: $clr-dark;
+            color: $clr-black;
             
         }
     }
@@ -392,9 +392,84 @@
 
     }
 
-// @include mediaQuery($break-lg){
-//     &__discover{}
-// }
+    @include mediaQuery($break-lg){
+        &__discover{
+            height: 560px; 
+        }
+        &__content{
+            transform: translateY(13rem);
+            margin-left: 16.66666667%;
+            width: 50%;
+            h2{
+                font-size: 7rem;
+                
+            }
+        }
+
+        &__wrapper:nth-child(1){
+            
+           .banner__gifting{
+            display: unset;
+            @include grid(2,0rem); 
+           }
+
+           .banner__img{
+            height: inherit;
+           }
+
+           
+           .banner__text{
+            padding: 4rem 7.4rem;
+           }
+        }
+
+        &__wrapper:nth-child(3) {
+            
+            .banner__sweet{
+             display: unset;
+             @include grid(2,0rem); 
+            }
+ 
+            .banner__img{
+             height: 10%;
+            }
+ 
+            
+            .banner__text{
+             padding: 4rem 7.4rem;
+            }
+        }
+        
+        #last__wrapper{
+            
+            .banner__stories{
+             display: unset;
+             @include grid(2,0rem); 
+                
+            }
+ 
+            .banner__img{
+             height: inherit;
+            order: 2;
+            
+            }
+ 
+            .banner__text__stories{
+             padding: 4rem 7.4rem;
+            order: 1
+            }
+        }
+
+        .twoclass{
+            @include grid(2, 1rem);
+            .banner__img{
+                height: 400px;
+            }
+        }
+
+
+       
+    }
     
     
 }

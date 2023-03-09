@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #000000;
   display: inline-block;
   font-weight: bolder;
-  color: #2b2b2b;
+  color: #000000;
 }
 .banner__sweet {
   margin-bottom: 3rem;
@@ -581,6 +581,65 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-weight: bolder;
   color: #2b2b2b;
+}
+@media screen and (min-width: 970px) {
+  .banner__discover {
+    height: 560px;
+  }
+  .banner__content {
+    transform: translateY(13rem);
+    margin-left: 16.66666667%;
+    width: 50%;
+  }
+  .banner__content h2 {
+    font-size: 7rem;
+  }
+  .banner__wrapper:nth-child(1) .banner__gifting {
+    display: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0rem;
+  }
+  .banner__wrapper:nth-child(1) .banner__img {
+    height: inherit;
+  }
+  .banner__wrapper:nth-child(1) .banner__text {
+    padding: 4rem 7.4rem;
+  }
+  .banner__wrapper:nth-child(3) .banner__sweet {
+    display: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0rem;
+  }
+  .banner__wrapper:nth-child(3) .banner__img {
+    height: 10%;
+  }
+  .banner__wrapper:nth-child(3) .banner__text {
+    padding: 4rem 7.4rem;
+  }
+  .banner #last__wrapper .banner__stories {
+    display: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0rem;
+  }
+  .banner #last__wrapper .banner__img {
+    height: inherit;
+    order: 2;
+  }
+  .banner #last__wrapper .banner__text__stories {
+    padding: 4rem 7.4rem;
+    order: 1;
+  }
+  .banner .twoclass {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .banner .twoclass .banner__img {
+    height: 400px;
+  }
 }
 
 .links {
